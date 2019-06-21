@@ -1,0 +1,15 @@
+﻿spring: 
+  profiles: 
+    active: 
+    - dev
+---
+spring:
+  profiles: dev
+  application: 
+    name: springcloud-config-demo-dev
+---
+spring: 
+  profiles: test
+  application: 
+    name: springcloud-config-demo-test
+#  保存为utf-8格式
